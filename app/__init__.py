@@ -10,7 +10,7 @@ def create_app(test_config=None):
     @app.route('/hello')
     def hello():
         return 'Hello, World!'
-      
+
     app.register_blueprint(home)
     app.register_blueprint(dashboard)
 
